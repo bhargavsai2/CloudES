@@ -6862,13 +6862,16 @@ background-position: center center;
 }
 
 .list-style-3 li:before {
-       content: "";
+     font-family: 'themify';
+ 
+    content: "\e64c";
     width: 10px;
     height: 1px;
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 0;
-    color: #354390
+    color: #ea473a;
+    background: unset !important;
 }
 
 @media (max-width: 767px){ 
