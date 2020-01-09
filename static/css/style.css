@@ -1622,7 +1622,7 @@ a.m-btn-icon:active {
 .social-icons-light a {
   display: inline-block;
   vertical-align: middle;
-  color: #555555;
+  color: #fff;
   margin: 0 13px;
   font-size: 14px;
 }
@@ -7612,3 +7612,24 @@ a:active {
   background-attachment: fixed !important;
   background-position: center; 
 }
+.mt-8{
+  margin-top: 8px !important
+}
+.loader{
+  position: relative;
+    top: calc(40% - 30px);
+    text-align: center;
+}
+.blc:hover{
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(233,62,58,1) 0%, rgba(246,162,46,1) 100%);
+  color: white
+}
+.blc:hover .feature-box div{
+  color: white
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}}
