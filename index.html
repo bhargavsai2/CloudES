@@ -38,7 +38,11 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="73">
 
   <div id="loading">
-    <div class="load-circle"><span class="one"></span></div>
+    <div class="loader">
+    <img class="logo" src="static/img/CloudES_black.png" width="200" title="" alt=""><br>
+    <img src="static/img/preloader.gif" width="200" title="" alt="">
+    </div>
+    <!--div class="load-circle"><span class="one"></span></div-->
   </div>
 
   <!-- ========== Header Start ========== -->
@@ -61,7 +65,7 @@
             <span></span>
           </button>
         <!-- /-->
-        <div id="header-01" class="collapse navbar-collapse top-menu">
+        <div id="header-01" class="collapse navbar-collapse top-menu mt-8">
           <!-- Menu Start -->
           <ul class="navbar-nav ml-auto">
          
@@ -77,16 +81,16 @@
             <li class="nav-item">
                 <a class="nav-link" href="#CRM">CRM Consulting</a>
               </li>
-             <li class="nav-item">
+             <!--li class="nav-item">
                 <a class="nav-link" href="#sales">Salesforce Consulting</a>
-              </li>
+              </li-->
                <li class="nav-item">
                 <a class="nav-link" href="#cloud">Cloud Consulting</a>
               </li>
             
-                <li class="nav-item">
+                <!--li class="nav-item">
                 <a class="nav-link" href="#strategy">Strategy Consulting</a>
-              </li>
+              </li-->
       
             <li class="nav-btn">
               <a class="nav-link" href="#contact">Contact</a>
@@ -106,6 +110,20 @@
     <!-- ========== Home Banner Start ========== -->  
     <section id="home" class="main-full-slider">
       <div class="owl-carousel" data-nav-arrow="true" data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-loop="true" data-space="0">
+        <div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/sap5.jpeg);">
+          <div class="section-overlay-in dark-bg opacity8"></div>
+          <div class="container">
+            <div class="position-center-box w-600px max-w-100 text-center sm-p-30px-lr">
+              <h1 class="font-alt sm-font-30 font-w-700 color-white m-0px m-20px-b">SAP<br> Hybris</h1>
+            <p class="color-white font-21 sm-font-14 font-w-800">Consultation - Solution – Implementation – Software Maintenance - Support </p>
+              <div class="p-30px-t">
+                <a href="#SAP_hyb" class="m-btn w-200px m-btn-xl border-radius-5px smooth-goto">Know More <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div> <!-- container -->
+        </div> <!-- Slider -->
+
+
         <div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/sap4.jpg); background-size: cover; ">
           <div class="section-overlay-in dark-bg opacity8"></div>
           <div class="container">
@@ -120,18 +138,6 @@
           </div> <!-- container -->
         </div> <!-- Slider -->
 
-        <div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/sap5.jpeg);">
-          <div class="section-overlay-in dark-bg opacity8"></div>
-          <div class="container">
-            <div class="position-center-box w-600px max-w-100 text-center sm-p-30px-lr">
-              <h1 class="font-alt sm-font-30 font-w-700 color-white m-0px m-20px-b">SAP<br> Hybris</h1>
-            <p class="color-white font-21 sm-font-14 font-w-800">Consultation - Solution – Implementation – Software Maintenance - Support </p>
-              <div class="p-30px-t">
-                <a href="#SAP_hyb" class="m-btn w-200px m-btn-xl border-radius-5px smooth-goto">Know More <i class="ti-arrow-right"></i></a>
-              </div>
-            </div>
-          </div> <!-- container -->
-        </div> <!-- Slider -->
 
          <div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/crm.jpg);">
           <div class="section-overlay-in dark-bg opacity8"></div>
@@ -146,7 +152,7 @@
           </div> <!-- container -->
         </div> <!-- Slider -->
 
-        <div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/salesforce.jpg);">
+        <!--div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/salesforce.jpg);">
           <div class="section-overlay-in dark-bg opacity8"></div>
           <div class="container">
             <div class="position-center-box w-600px max-w-100 text-center sm-p-30px-lr">
@@ -156,8 +162,8 @@
                 <a href="#sales" class="m-btn w-200px m-btn-xl border-radius-5px smooth-goto">Know More <i class="ti-arrow-right"></i></a>
               </div>
             </div>
-          </div> <!-- container -->
-        </div> <!-- Slider -->
+          </div> 
+        </div--> 
 
          <div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/cloud.jpg);">
           <div class="section-overlay-in dark-bg opacity8"></div>
@@ -172,7 +178,7 @@
           </div> <!-- container -->
         </div> <!-- Slider -->
 
-        <div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/strategy.jpg);">
+        <!--div class="slider bg-cover bg-no-repeat bg-center-center section-overlay" style="background-image: url(static/img/newbg/strategy.jpg);">
           <div class="section-overlay-in dark-bg opacity8"></div>
           <div class="container">
             <div class="position-center-box w-600px max-w-100 text-center sm-p-30px-lr">
@@ -182,8 +188,8 @@
                 <a href="#strategy" class="m-btn w-200px m-btn-xl border-radius-5px smooth-goto">Know More <i class="ti-arrow-right"></i></a>
               </div>
             </div>
-          </div> <!-- container -->
-        </div> <!-- Slider -->
+          </div> 
+        </div--> 
 
   
       </div>
@@ -224,10 +230,8 @@
     </section>
     <!-- / -->
 
-
-
-    <!-- Services -->
-    <section id="SAP_conc">
+ <!-- Services -->
+    <section id="SAP_hyb">
       <div class="container-fluid">
         <div class="text-center m-40px-b">
           
@@ -235,72 +239,26 @@
           <div class="font-w-700 font-17 color-theme font-alt m-10px-b">We provide following services</div>
         </div>
         <div class="row">
-          <div class="col-lg-6 bg-center-center bg-no-repeat bg-cover md-h-250px" style="background-image: url(static/img/newbg/sap4.jpg);">
-            
-          </div> <!-- col -->
-
-          <div class="col-lg-6 light-gray-bg">
-            <div class="p-40px sm-p-40px-tb sm-p-0px-lr">
-              <div class="m-40px-b">
-                <h4 class="font-alt color-black font-w-600 m-0px m-20px-b">SAP <strong class="font-w-700 color-theme">Consulting</strong></h4>
-                <p class="font-18 sm-font-14 m-30px-b">CloudES has a large team of experts that specialize in Consulting and Implementation to Fortune 500 companies in the following key SAP Areas:</p>
-            <div class="row">
-              <div class="col-md-6">
-            <ul class="list-style-3">
-              <li>SAP BRIM - Hybris Billing, C4S</li>
-        <li>Central Finance</li>
         
-        <li>ABAP/4</li>
-        <li>S/4 Finance G/L</li>
-        <li>S/4 Project Systems </li>
-        <li>S/4 Accounts Payable</li>
-        <li>S/4 FI-CA Contract Accounting</li>
-        </ul>
-      </div>
-       <div class="col-md-6">
-        <ul class="list-style-3">
-        <li>S/4 Revenue Recognition (RAR)</li>
-        <li>SAP Ariba</li>
-        <li>SAP Concur </li>
-        <li>SAP HANA Modeling </li>
-        <li>SAP Analytics Cloud </li>
-        <li>SAP SLT </li>
-          </ul>
-
-
-        </div>
-        </div>
-            </div>
-          </div> <!-- col -->
-
-        </div> <!-- row -->
-      </div> <!-- container -->
-    </section>
-    <!-- / -->
-
-
- <!-- Services -->
-    <section id="SAP_hyb">
-      <div class="container-fluid">
-        <div class="row">
           <div class="col-lg-6 light-gray-bg">
             <div class="p-40px sm-p-40px-tb sm-p-0px-lr">
               <div class="m-40px-b">
                 <h4 class="font-alt color-black font-w-600 m-0px m-20px-b">SAP Hybris <strong class="font-w-700 color-theme">Consulting</strong></h4>
 
-                <p class="m-0px font-17 w-80 sm-w-100">Today the online retail place is as (if not more) competitive than the traditional retail shopping. Which is why our customers need any and every edge that they can find to stay at par or in some cases outwit their competition. <br>
+                <p class="font-16 sm-font-14 m-10px-t">Today the online retail place is as (if not more) competitive than the traditional retail shopping. Which is why our customers need any and every edge that they can find to stay at par or in some cases outwit their competition. <p>
+<p class="font-16 sm-font-14 m-10px-t">
+This is where SAP Hybris comes in. The SAP Hybris software is a leading omni-channel e-Commerce Platform by SAP. Our highly experienced team on SAP Hybris not only includes consultants that help with the implementations but have a deep understanding of each aspect of this Industry to help perfect the various nuances of our Customers’ online marketplace.  </p>
 
-This is where SAP Hybris comes in. The SAP Hybris software is a leading omni-channel e-Commerce Platform by SAP. Our highly experienced team on SAP Hybris not only includes consultants that help with the implementations but have a deep understanding of each aspect of this Industry to help perfect the various nuances of our Customers’ online marketplace. </p><br>
-
-<p class="m-0px font-17 w-80 sm-w-100">
+<p class="font-16 sm-font-14 m-10px-t">
 <strong class="color-theme">Our Capabilities:</strong>
 From Strategy to Implementation, our Team has globally implemented SAP Hybris and have worked with our customers to perfect each step of a User’s Online Purchase journey and unlock untapped potential of their business operations. This has helped our organizations increase customer loyalty by understanding what their customers want - whether it is better deals, an easier User Interface, a streamlined feedback mechanism or an improved and transparent Supply Chain process. 
 </p>
+<p class="font-16 sm-font-14 m-10px-t">
+                With over 80 Hybris Consultants working with Global Fortune 500 customers and over 150 consultants with deep eCommerce knowledge, CloudES can cater to all SAP Hybris Modules across the spectrum like - Sales, Commerce, Marketing, Billing and/or Service.</p>
               </div>
               <div class="row">
               <div class="col-md-6">
-                <p>
-                With over 80 Hybris Consultants working with Global Fortune 500 customers and over 150 consultants with deep eCommerce knowledge, CloudES can cater to all SAP Hybris Modules across the spectrum like - Sales, Commerce, Marketing, Billing and/or Service.</p>
+                
  
             <ul class="list-style-3">
               <li>SAP Hybris Commerce</li>
@@ -329,6 +287,7 @@ From Strategy to Implementation, our Team has globally implemented SAP Hybris an
 
         </div>
         </div>
+        <a href="#" class="m-btn" data-toggle="modal" data-target="#exampleModal">Case Studies</a>
             </div>
           </div> <!-- col -->
 
@@ -341,24 +300,106 @@ From Strategy to Implementation, our Team has globally implemented SAP Hybris an
     </section>
     <!-- / -->
 
- <!-- Services -->
-    <section id="CRM">
+    <section class="light-gray-bg">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6 bg-center-center bg-no-repeat bg-cover md-h-250px" style="background-image: url(static/img/newbg/crm.jpg);">
+
+
+          <div class="col-12 col-md-6 col-lg-3 border-top border-b border-right border-light-gray md-border-b-none blc" data-toggle="modal" data-target="#case1">
+            <div class="feature-box p-15 sm-p-40px-tb sm-p-20px-lr">
+              <div class="color-black font-alt font-60 font-w-600">01</div>
+              <div class="feature-content">
+                <div class="font-alt font-16 font-w-700 m-10px-b line-height-n color-extra-dark-gray m-15px-t">Case Study</div>
+                <p class="m-0px font-17">How a trusted Optical Store used SAP Hybris to grow their Online Sales</p>
+              </div><!-- feature-content -->
+            </div><!-- feature-box -->
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 border-top border-b border-right border-light-gray md-border-b-none blc" data-toggle="modal" data-target="#case2">
+            <div class="feature-box p-15 sm-p-40px-tb sm-p-20px-lr">
+              <div class="color-black font-alt font-60 font-w-600">02</div>
+              <div class="feature-content">
+                <div class="font-alt font-16 font-w-700 m-10px-b line-height-n color-extra-dark-gray m-15px-t">Case Study</div>
+                <p class="m-0px font-17">What made a World renowned Sports Footwear Manufacturer choose SAP Hybris for their E-Commerce Operations?</p>
+              </div><!-- feature-content -->
+            </div><!-- feature-box -->
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 border-top border-b border-right border-light-gray md-border-b-none blc" data-toggle="modal" data-target="#case3">
+            <div class="feature-box p-15 sm-p-40px-tb sm-p-20px-lr">
+              <div class="color-black font-alt font-60 font-w-600">03</div>
+              <div class="feature-content">
+                <div class="font-alt font-16 font-w-700 m-10px-b line-height-n color-extra-dark-gray m-15px-t">Case Study</div>
+                <p class="m-0px font-17">How one of the largest manufacturers of water heaters streamlined their Customer Support ops using SAP Hybris</p>
+              </div><!-- feature-content -->
+            </div><!-- feature-box -->
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 border-top border-b border-light-gray blc" data-toggle="modal" data-target="#case4">
+            <div class="feature-box p-15 sm-p-40px-tb sm-p-20px-lr">
+              <div class="color-black font-alt font-60 font-w-600">04</div>
+              <div class="feature-content">
+                <div class="font-alt font-16 font-w-700 m-10px-b line-height-n color-extra-dark-gray m-15px-t">Case Study</div>
+                <p class="m-0px font-17">A Large Indian Telecom company transforms their Customer Experience through SAP Hybris Billing Solutions</p>
+              </div><!-- feature-content -->
+            </div><!-- feature-box -->
+          </div>
+
+      </div> <!-- row -->
+      </div> <!-- container -->
+    </section>
+
+    <!-- Services -->
+    <section id="SAP_conc">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 bg-center-center bg-no-repeat bg-cover md-h-250px" style="background-image: url(static/img/newbg/sap4.jpg);">
             
           </div> <!-- col -->
 
           <div class="col-lg-6 light-gray-bg">
             <div class="p-40px sm-p-40px-tb sm-p-0px-lr">
               <div class="m-40px-b">
-                <h4 class="font-alt color-black font-w-600 m-0px m-20px-b">CRM <strong class="font-w-700 color-theme">Consulting</strong></h4>
-                <p class="font-18 sm-font-14 m-10px-b">It is our aim that your Business/Brand builds meaningful relationships with your customers. A potent CRM solution helps transform the way businesses work and can help engage your customers much better.  Traditionally, CRMs have been thought to streamline only the Sales and Marketing activities. But today’s CRM solutions are a whole lot more. A well implemented CRM solution, helps integrate the Management with your Sales, Marketing and Customer Service Teams seamlessly to provide instant insights that further facilitate Business Growth. </p>
+                <h4 class="font-alt color-black font-w-600 m-0px m-20px-b">SAP <strong class="font-w-700 color-theme">Consulting</strong></h4>
+                <p class="font-16 sm-font-14 m-10px-t">
+                If done properly, the potential of a well thought-out and well-rounded SAP Strategy for your organization is immense. It can propel your business to newer heights. Through careful guidance and a comprehensive IT Roadmap for your organization, our Experienced Consultants can revolutionize your business and streamline your business processes, thereby unlocking true potential of your business. </p>
+                <p class="font-16 sm-font-14 m-10px-t">
+                We are end-to-end provider of SAP business solutions and have extensive project expertise. With a Global and a Multi-industry exposure and multiple Global Roll-outs, our SAP Consultants will help your organization Digitally Transform your Business Processes. Through Years of experience, our Consultants will help you develop a tailored SAP Strategy for your organization and work with your teams to deliver a quality SAP Implementation based on Industry Best-practices that would positively affect your bottom-line. 
+              </p>
+              <p class="font-16 sm-font-14 m-10px-t m-10px-b">
+               Industries:
+             </p>
+                <strong class="m-0px m-0px-t color-theme">
+                Oil and Gas | Chemicals | Utilities | Aerospace & Defense | Automotive | High Tech | Financial Services | Service Industries | Telecom | Consumer Industries | Healthcare | Retail | Public Services</strong>
 
 
-<strong class="m-0px m-5px-t color-theme">Empower your Sales teams | Facilitate Stronger Customer relationships | Focus on Closures & Customer Satisfaction</strong>
-<p class="font-18 sm-font-14 m-10px-t">
-Each Company and Business is different with their own specific needs and the market is filled with various CRM Solutions. Each CRM solution comes with it Pros and Cons. CloudES and our experienced Consultants have a deep understanding of the Solutions available and the Business applicability of each and have successfully helped customers across the globe in choosing and implementing CRM Solutions that aptly fit their Organizations, Businesses and Industries. </p>
+                <p class="font-16 sm-font-14 m-10px-t m-30px-b">CloudES has a large team of experts that specialize in Consulting and Implementation to Fortune 500 companies in the following key SAP Areas:</p>
+            <div class="row">
+              <div class="col-md-6">
+            <ul class="list-style-3">
+              <li>SAP BRIM - Hybris Billing, C4S</li>
+        <li>Central Finance</li>
+        
+        <li>ABAP/4</li>
+        <li>S/4 Finance G/L</li>
+        <li>S/4 Project Systems </li>
+        <li>S/4 Accounts Payable</li>
+        <li>S/4 FI-CA Contract Accounting</li>
+        </ul>
+      </div>
+       <div class="col-md-6">
+        <ul class="list-style-3">
+        <li>S/4 Revenue Recognition (RAR)</li>
+        <li>SAP Ariba</li>
+        <li>SAP Concur </li>
+        <li>SAP HANA Modeling </li>
+        <li>SAP Analytics Cloud </li>
+        <li>SAP SLT </li>
+          </ul>
+
+
+        </div>
+        </div>
         
             </div>
           </div> <!-- col -->
@@ -368,8 +409,37 @@ Each Company and Business is different with their own specific needs and the mar
     </section>
     <!-- / -->
 
+
+ <!-- Services -->
+    <section id="CRM">
+      <div class="container-fluid">
+        <div class="row">
+          
+
+          <div class="col-lg-6 light-gray-bg">
+            <div class="p-40px sm-p-40px-tb sm-p-0px-lr">
+              <div class="m-40px-b">
+                <h4 class="font-alt color-black font-w-600 m-0px m-20px-b">CRM <strong class="font-w-700 color-theme">Consulting</strong></h4>
+                <p class="font-16 sm-font-14 m-10px-b">It is our aim that your Business/Brand builds meaningful relationships with your customers. A potent CRM solution helps transform the way businesses work and can help engage your customers much better.  Traditionally, CRMs have been thought to streamline only the Sales and Marketing activities. But today’s CRM solutions are a whole lot more. A well implemented CRM solution, helps integrate the Management with your Sales, Marketing and Customer Service Teams seamlessly to provide instant insights that further facilitate Business Growth.  </p>
+
+
+<strong class="m-0px m-5px-t color-theme">Empower your Sales teams | Facilitate Stronger Customer relationships | Focus on Closures & Customer Satisfaction</strong>
+<p class="font-16 sm-font-14 m-10px-t">
+Each Company and Business is different with their own specific needs and the market is filled with various CRM Solutions. Each CRM solution comes with it Pros and Cons. CloudES and our experienced Consultants have a deep understanding of the Solutions available and the Business applicability of each and have successfully helped customers across the globe in choosing and implementing CRM Solutions that aptly fit their Organizations, Businesses and Industries.</p>
+        
+            </div>
+            </div>
+          </div> <!-- col -->
+          <div class="col-lg-6 bg-center-center bg-no-repeat bg-cover md-h-250px" style="background-image: url(static/img/newbg/crm.jpg);">
+            
+          </div> <!-- col -->
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section>
+    <!-- / -->
+
     <!-- Services -->
-    <section id="sales">
+    <!--section id="sales">
       <div class="container-fluid">
         <div class="row">
           
@@ -381,21 +451,21 @@ Each Company and Business is different with their own specific needs and the mar
 
 
 
-                <p class="font-18 sm-font-14 m-10px-b">Of the many Salesforce consulting partners around the world , we are renowned experts in helping firms with their Salesforce® instance to boost growth and productivity. With Salesforce platform and technology come endless possibilities and great potential of transforming businesses. </p>
+                <p class="font-16 sm-font-14 m-10px-b">Of the many Salesforce consulting partners around the world , we are renowned experts in helping firms with their Salesforce® instance to boost growth and productivity. With Salesforce platform and technology come endless possibilities and great potential of transforming businesses. </p>
 
-<p class="font-18 sm-font-14 m-10px-t">
+<p class="font-16 sm-font-14 m-10px-t">
 All you have to do is hire certified Salesforce consultant. A Salesforce consulting partner like ours can give shape to your enterprise, and a complete and detailed understanding of the problems faced. As one of the top Salesforce consulting companies , we help firms handpick and hand-customize Salesforce® products, elevating their businesses to the next level. </p>
         
             </div>
           </div>
-          </div> <!-- col -->
+          </div> 
           <div class="col-lg-6 bg-center-center bg-no-repeat bg-cover md-h-250px" style="background-image: url(static/img/newbg/salesforce.jpg);">
             
-          </div> <!-- col -->
+          </div> 
 
-        </div> <!-- row -->
-      </div> <!-- container -->
-    </section>
+        </div> 
+      </div> 
+    </section-->
     <!-- / -->
 
 
@@ -413,19 +483,20 @@ All you have to do is hire certified Salesforce consultant. A Salesforce consult
               <div class="m-40px-b">
                 <h4 class="font-alt color-black font-w-600 m-0px m-20px-b">Cloud <strong class="font-w-700 color-theme">Consulting</strong></h4>
 
-                <p class="font-18 sm-font-14 m-10px-b">Cloud computing services are changing how businesses and public institutions use information technology. Today cloud services are available to meet most any IT need. Although there's great variety among cloud computing services, all such services have certain basic features and benefits in common, and all can be categorized into a few basic cloud service types.</p>
+                <p class="font-16 sm-font-14 m-10px-b">By now most people have heard about cloud computing services, but what does cloud mean? While cloud services may vary in their particulars, a cloud computing definition identifies the core features and benefits that are common across all clouds. Cloud computing services are changing how businesses and public institutions use information technology.</p>
 
-<p class="font-18 sm-font-14 m-10px-t">
-All you have to do is hire certified Salesforce consultant. A Salesforce consulting partner like ours can give shape to your enterprise, and a complete and detailed understanding of the problems faced. As one of the top Salesforce consulting companies , we help firms handpick and hand-customize Salesforce® products, elevating their businesses to the next level. </p>
+<p class="font-16 sm-font-14 m-10px-t">
+Many enterprises are now shifting from an On-premise model to a Public cloud. It is imperative now for CIOs to consider a Cloud-first approach to their business, thus bringing businesses closer to their customers and enabling a better customer experience. Although there's great variety among cloud computing services, all such services have certain basic features and benefits in common, and all can be categorized into a few basic cloud service types. </p>
         
-        <p class="font-18 sm-font-14 m-10px-t">
+        <p class="font-16 sm-font-14 m-10px-t">
 Many enterprises are now shifting from an On-premise model to a Public cloud. It is imperative now for CIOs to consider a Cloud-first approach to their business, thus bringing businesses closer to their customers and enabling a better customer experience. </p>
        
-        <p class="font-18 sm-font-14 m-10px-t">
-Our team of experts carefully assess your business, its challenges and the implications of adopting a Cloud Strategy thereby enabling higher savings for Organizations. Our Cloud Strategists bring-in decades of experience to carve-out a potent Cloud Strategy for your Organization and assist you in navigating through various aspects from Implementation to Go-live to Support. </p>
+        <p class="font-16 sm-font-14 m-10px-t">
+Our team of experts carefully assess your business, its challenges and the implications of adopting a Cloud Strategy thereby enabling higher savings for Organizations. Our Cloud Strategists bring-in decades of experience to carve-out a potent Cloud Strategy for your Organization and assist you in navigating through various aspects from Implementation to Go-live to Support.</p>
             </div>
           </div>
           </div> <!-- col -->
+
           
 
         </div> <!-- row -->
@@ -435,7 +506,7 @@ Our team of experts carefully assess your business, its challenges and the impli
 
 
       <!-- Services -->
-    <section id="strategy">
+    <!--section id="strategy">
       <div class="container-fluid">
         <div class="row">
           
@@ -447,9 +518,9 @@ Our team of experts carefully assess your business, its challenges and the impli
 
 
 
-                <p class="font-18 sm-font-14 m-10px-b">CloudES Strategy consultants assist their clients by stepping into complex situations and developing cogent, coherent plans of action that help companies meet their defined goals.</p>
+                <p class="font-16 sm-font-14 m-10px-b">CloudES Strategy consultants assist their clients by stepping into complex situations and developing cogent, coherent plans of action that help companies meet their defined goals.</p>
 
-<p class="font-18 sm-font-14 m-10px-t">
+<p class="font-16 sm-font-14 m-10px-t">
 Our Strategy consulting services include the following:</p>
 
         <ul class="list-style-3">
@@ -462,19 +533,19 @@ Our Strategy consulting services include the following:</p>
           </ul>
             </div>
           </div>
-          </div> <!-- col -->
+          </div> 
           <div class="col-lg-6 bg-center-center bg-no-repeat bg-cover md-h-250px" style="background-image: url(static/img/newbg/strategy.jpg);">
             
-          </div> <!-- col -->
+          </div> 
 
-        </div> <!-- row -->
-      </div> <!-- container -->
-    </section>
+        </div> 
+      </div> 
+    </section-->
     <!-- / -->
 
     <!-- Contact -->
 
-    <section id="contact" class="section light-gray-bg">
+    <section id="contact" class="section">
       <div class="container">
 
         <div class="row m-60px-b justify-content-center text-center">
@@ -485,7 +556,7 @@ Our Strategy consulting services include the following:</p>
 
 
           <div class="row">
-             <div class="col-12 col-md-6 col-lg-4">
+             <div class="col-lg-2">
              </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="white-bg p-40px sm-p-20px min-h-100 box-shadow-large">
@@ -499,7 +570,7 @@ Our Strategy consulting services include the following:</p>
                   <div class="col-12 m-10px-tb">
                       <i class="icon-envelope color-theme font-25"></i>
                       <h4 class="color-extra-dark-gray font-w-500 font-13 text-uppercase font-alt m-0px">Email</h4>
-                      <a href="mailto:contact@fastrallc.com" class="font-18 m-0px">contact@fastrallc.com</a>
+                      <a href="mailto:contact@fastrallc.com" class="font-16 m-0px">contact@fastrallc.com</a>
                   </div>
 
                   <div class="col-12 m-10px-tb">
@@ -523,7 +594,7 @@ Our Strategy consulting services include the following:</p>
                   <div class="col-12 m-10px-tb">
                       <i class="icon-envelope color-theme font-25"></i>
                       <h4 class="color-extra-dark-gray font-w-500 font-13 text-uppercase font-alt m-0px">Email</h4>
-                      <a href="mailto:contact@fastrallc.com" class="font-18 m-0px">contact@fastrallc.com</a>
+                      <a href="mailto:contact@fastrallc.com" class="font-16 m-0px">contact@fastrallc.com</a>
                   </div>
 
                   <div class="col-12 m-10px-tb">
@@ -535,7 +606,7 @@ Our Strategy consulting services include the following:</p>
               </div>
             </div> <!-- col -->
 
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-lg-2">
              </div>
   
           </div> <!-- row -->
@@ -544,20 +615,262 @@ Our Strategy consulting services include the following:</p>
 
     <!--  -->
 
+
+<!--modal data-->
+
+
+<div class="modal fade" id="case1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Case Study 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="font-16 sm-font-14 m-10px-b text-center">
+          <strong class="m-0px m-5px-t color-theme">How a trusted Optical Store used SAP Hybris to grow their Online Sales</strong></p>
+          <p class="font-16 sm-font-14 m-10px-b">
+Regarded as one of the most trusted opticians, the Company is renowned for the exceptional quality standards that it sets in precision Eye-Care globally. They call themselves “Visionary” Pioneers in the Optical Industry and have been in existence for over 100 years having served generations for all the eye-wear needs with a steadfast commitment towards Long-term growth and Quality & Care in Service. With over 5000+ Stores globally, their name has become synonymous with all Eye-care and Optical requirements needs. Today, the Company is leading provider of International Brands in the space of Eye-wear (Cosmetic and Spectacles), Fashionable Sunglasses, Best-in-Class Contact Lenses and Computerized eye-testing.
+</p>
+<p class="font-16 sm-font-14 m-10px-b">  
+<strong class="m-0px m-5px-t color-theme">Challenge:</strong>
+Traditionally being a Retail-store oriented business, the Company wanted to cater to the online market owing to the change in Consumer’s Buying Behavior.  Along with a Technology integration into their existing eyewear business, the Company wanted to bring in various services along with it to cater to the ever changing Consumer demands like Customized Eyewear, Virtual ‘Wear and Try’ for their Customers, Online Purchase of Spectacles & Doorstep Eye-check Up for their Customers by their growing pool of Opticians.
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+Being an existent user of SAP within their organization and also having included a legacy CRM solution, the Company was looking to upgrade to a more robust & scalable Omni-channel Commerce Solution to serve its new and expanding Customer base and its new sophisticated business requirements. After reviewing various solutions in the market, the Company decided to go ahead with SAP Hybris’ Commerce solution which would not only be an ideal fit to cater to its new business direction, but would also make its integration with the current SAP implementation easier thus ensuring that all its business processes like Supply Chain, Logistics, Sales, Finance etc., are perfectly streamlined. 
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">Why SAP Hybris?</strong>
+</p>
+ <ul class="list-style-3">
+   <li>Ability to Scale based on the changing Business needs and Consumer Behavior</li>
+
+  <li> Unified and integrated system for Content Management, Online Ordering and Supply Chain integration</li>
+  <li> Quick time to Value and Integration</li>
+  <li>An Intuitive and Superior Mobile Friendly experience for the Customers</li>
+  <li>Supports multiple languages helping cater to customers globally</li>
+  <li> Easier Price Quote management owing to Customized and different Customer requirements</li>
+  <li>Supports new product launches and promotions across various channels</li>
+</ul>
+<p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">
+Results:</strong></p>
+<ul class="list-style-3">
+  <li>Through a structured and well managed Deployment procedure, the Go-live took less than 6 months. This was deployed and monitored by experienced SAP Hybris experts.</li>
+  <li>Regularly updated Online Inventory</li>
+  <li>A more streamlined Complaints, Feedbacks, Customer Support and Repair/Service mechanism</li>
+  <li>Increased Customer Orders due to an Online Presence and more so, due a Mobile-focused approach</li>
+  <li>Increased Efficiency, more streamlined and standardized Business Processes</li>
+  <li>Significant increase in presence and awareness across various Social Media channels</li>
+</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!--button type="button" class="btn btn-primary">Save changes</button-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="case2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Case Study 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="font-16 sm-font-14 m-10px-b text-center">
+          <strong class="m-0px m-5px-t color-theme">What made a World renowned Sports Footwear Manufacturer choose SAP Hybris for their E-Commerce Operations?</strong></p>
+          <p class="font-16 sm-font-14 m-10px-b">
+The Company is one of the largest Japanese Corporation which produces footwear and sports equipment designed for a wide range of Sports, Adventure and Casual activities. Beginning its journey in the early 1980s, the Company had quickly gained a global footprint, now with over 6000+ employees globally, owing to their Designs, Comfort, Durability and Affordability. With a commitment to Quality, Ethics and a thorough understanding of their Customer’s ever changing needs, the Company offers a wide range of products catering to various needs. The Company believes in constantly staying at par with the market with continuous innovations that have steadily risen them to be one of the best in the market. 
+</p>
+<p class="font-16 sm-font-14 m-10px-b">  
+<strong class="m-0px m-5px-t color-theme">Challenge:</strong>
+The Company was one of the first to re-vamp their business model and enter the Online Retail space. Limited by the technology, solutions and services available at the time, they were constantly challenged by Inventory inaccuracies, Lack of a User Friendly front-end for their customers, inefficient complaints and Feedback redressal mechanisms and poor performance during peak website traffic. It was imperative for them to find a way to streamline and scale their ecommerce operations in order to stay ahead of their imminent competition. 
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+The Company opted for SAP Hybris Commerce solution, overhauling their existing technology architecture and enabling a drastic shift towards the future into Omnichannel shopping. This step would eventually help the company develop a meaningful engagement with its customers across various digital channels and understanding not only their Shopping trends, but even their browsing frequencies and behaviors, thus increasing Sales. 
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">Why SAP Hybris?</strong>
+</p>
+ <ul class="list-style-3">
+   <li>Ability to Scale based on the changing Business needs and Consumer Behavior</li>
+
+  <li> Unified and integrated system for Content Management, Online Ordering and Supply Chain integration</li>
+  <li> Quick time to Value and Integration</li>
+  <li>An Intuitive and Superior Mobile Friendly experience for the Customers</li>
+  <li>Supports multiple languages helping cater to customers globally</li>
+  <li> Easier Price Quote management owing to Customized and different Customer requirements</li>
+  <li>Supports new product launches and promotions across various channels</li>
+
+  <li>  A Completely Omnichannel platform that helps with business growth</li>
+  <li>Simplify the Technology landscape for future innovations and scalability</li>
+  <li>Deep insights into Customers buying and browsing patterns</li>
+  <li>Stronger Content Management and easier Product launches</li>
+  <li>Easy integration with existing ERP Systems to streamline Business Processes</li>
+</ul>
+<p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">
+Results:</strong></p>
+<ul class="list-style-3">
+  <li>Optimized Customer experience</li>
+  <li>RBetter Technology infrastructure to manage Peak loads backed by the years of experience of our SAP</li>
+  <li>Hybris experts</li>
+  <li>Mobile Friendly front-end resulted in an increased buyer activity</li>
+  <li>Detailed visibility into the Sales lifecycle</li>
+  <li>Simplified back-end operations</li>
+  <li>Streamlined Inventory Management </li>
+  <li>Quicker resolutions of Complaints/Feedbacks</li>
+</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!--button type="button" class="btn btn-primary">Save changes</button-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="case3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Case Study 3</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="font-16 sm-font-14 m-10px-b text-center">
+          <strong class="m-0px m-5px-t color-theme">How one of the largest manufacturers of water heaters streamlined their Customer Support ops using SAP Hybris</strong></p>
+          <p class="font-16 sm-font-14 m-10px-b">
+The Company is one of the largest manufacturer & supplier of Water Heaters. With over 6 decades of innovative experience in water heating technology, the Company manufactures gas and electric storage, heat pump and solar water heaters for domestic, commercial and large scale project applications with a global footprint for exports. Manufacturing and Sales being there core areas of Business, the Company also offers thoroughly professional grade Repair and Service, thus furthering Customer Retention and Satisfaction. 
+
+</p>
+<p class="font-16 sm-font-14 m-10px-b">  
+<strong class="m-0px m-5px-t color-theme">Challenge:</strong>
+The Company’s Service division receives a large number of requests each day towards Service, Repairs, Installation Requests, and Customer Complaints. They were not only looking for a solution that could streamline this process, but also handle peak traffic during high volume seasons, especially the winters and pre-winters time. Their existing systems were incapable of handling large volume requests and they were seeing a fall in the customer retention.  They were seeing a reduced promptness in responding to Customer inquiries and were unable to fully understand the Outcomes of the Customer queries for future process improvements. They wanted a quick solution to this issue and where intent in making improvements in the way they handle the calls, respond and offer advice. 
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+Using the consult of our highly experienced SAP experts and being an existing SAP user, the company decided that SAP Hybris Cloud for Customer (C4C) was the best fit for their needs to manage Customer Sales, Customer Service and Marketing Activities. 
+</p>
+<!--p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">Why SAP Hybris?</strong>
+</p>
+ <ul class="list-style-3">
+   <li>Ability to Scale based on the changing Business needs and Consumer Behavior</li>
+
+  <li> Unified and integrated system for Content Management, Online Ordering and Supply Chain integration</li>
+  <li> Quick time to Value and Integration</li>
+  <li>An Intuitive and Superior Mobile Friendly experience for the Customers</li>
+  <li>Supports multiple languages helping cater to customers globally</li>
+  <li> Easier Price Quote management owing to Customized and different Customer requirements</li>
+  <li>Supports new product launches and promotions across various channels</li>
+</ul-->
+<p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">
+Results:</strong></p>
+<ul class="list-style-3">
+  <li>With a Mobile-first approach, SAP Cloud for Customer meets the requirements of today's sales and service professionals who need information about customers any time and in any location. </li>
+
+  <li>Over a 100 people of their staff and external partners now use C4C from SAP, with atleast 30 staff using it on a daily basis to work on Customer issues and Satisfaction even during peak business season. </li>
+  <li>Due to an enhanced User Experience, the Staff is now more focused on higher productivity out of the tool rather than spending endless hours in entering information</li>
+  <li>Through the tool, the employees are now easily and quickly able to resolve customer problems and are able to deliver a highly personalized flavor of customer engagement resulting in higher customer satisfaction and revenues</li>
+  <li>The Call center staff are now handling calls faster and adding more value, with an average 15-20% savings in call times</li>
+  <li>Comprehensive Outcome tracking: Deeper understanding of the type of work being assigned to the service professionals, understanding the quality of service delivery, easier re-allotment of tasks to another an agent in case the previous agent is busy and easier tracking of the customer’s satisfaction levels for the service</li>
+</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!--button type="button" class="btn btn-primary">Save changes</button-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="case4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Case Study 4</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="font-16 sm-font-14 m-10px-b text-center">
+          <strong class="m-0px m-5px-t color-theme">A Large Indian Telecom company transforms their Customer Experience through SAP Hybris Billing Solutions</strong></p>
+          <p class="font-16 sm-font-14 m-10px-b">
+A large Telecom company based out of India, and operating in over 15 locations globally, was looking to upgrade their existing SAP Systems to meet the requirements of their rapidly increasing User subscriptions. Their services included fixed telephony, Pre-paid cards, Post-paid plans all having varying levels of Data needs depending on the consumer’s needs and fixed line, fiber and broadband services.
+</p>
+<p class="font-16 sm-font-14 m-10px-b">  
+<strong class="m-0px m-5px-t color-theme">Challenge:</strong>
+The company was looking for a Unified Billing solution that could encompass the highly variegated billing scenarios of its customers. Their existing CRM systems were unable to comprehend such diverse billing scenarios and due to the limitations of flexibility in its billing functionalities, it restricted their Business teams in having the first-mover advantage through innovative Products and Service plans to its customers in a highly competitive marketplace. It was imperative for them to offer and have an in-depth market understanding of the outcomes of their various postpaid, prepaid and other offerings.
+
+
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+Furthermore, they were looking to streamline the information flow between their various business units and further bottom-lines and have a competitive edge in the market. They also wanted to ensure that the Customer Service and Management units run more smoothly to boost their Customer retention. 
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">Why SAP Hybris?</strong>
+</p>
+<p class="font-16 sm-font-14 m-10px-b">
+The obvious solution for the company was the SAP Hybris Billing Solution which armed them with a unified and a completely automated way of managing their billing processes. 
+The Solution could </p>
+ <ul class="list-style-3">
+   <li>Encompass multiple billing streams and process them into a single invoice</li>
+
+  <li> Capture and include any revenue sharing agreements</li>
+  <li> Could handle One-time or Recurring billing for their service offerings</li>
+  <li>Include Various offers and discounts</li>
+ 
+</ul>
+<p class="font-16 sm-font-14 m-10px-b">
+<strong class="m-0px m-5px-t color-theme">
+Results:</strong></p>
+<p class="font-16 sm-font-14 m-10px-b">
+As a result of the SAP Hybris Billing Implementation, the Company was able to:
+</p> 
+<ul class="list-style-3">
+  <li>Enable real-time charging and rating of services</li>
+  <li>Reduce time to market for their new offerings</li>
+  <li>Facilitate an end-to-end process flow for all the business functions resulting in increased internal collaboration</li>
+  <li>Gain a holistic view of all customer accounts and their subscribed services</li>
+  <li>Improve Customer Experience, Service Satisfaction and User Retention</li>
+</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!--button type="button" class="btn btn-primary">Save changes</button-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal data end-->
+
   </main>
   <!-- ========== Main End ========== -->  
 
   <!-- ========== Footer Start ========== -->
-  <footer>
+  <footer style="background-image:url(static/img/newbg/footer.jpg); background-size: cover; background-position: center;">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center p-40px-tb border-b border-w-1 border-grey">
-          <img src="static/img/CloudES_black.png" title="" alt="" width="300">
+          <img src="static/img/CloudES_white.png" title="" alt="" width="300">
         </div> <!-- col -->
       </div> <!-- row -->
       <div class="row p-30px-tb">
         <div class="col-12 col-sm-6 align-self-center text-center text-sm-left">
-            <p class="m-0px color-medium-gray font-14">All © Copyright by CloudES. All Rights Reserved.</p>
+            <p class="m-0px color-white font-14">All © Copyright by CloudES. All Rights Reserved.</p>
         </div>
         <div class="col-12 col-sm-6 text-center text-sm-right align-self-center">
             <div class="social-icons-light">
